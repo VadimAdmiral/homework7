@@ -34,7 +34,7 @@ public class Main {
             int newBirths = people * birthRate / 1000;
             int deaths = people * fatality / 1000;
             people = people + newBirths - deaths;
-            System.out.println("Год " + io + ", численность населения составляет " + people);
+            System.out.println("Год " + io + ", численность населения составляет " + people);}
 
             //Задача 4;
             System.out.println("Задача 4");
@@ -44,8 +44,8 @@ public class Main {
             int month = 0;
             while (deposit < depositFinal)
                 deposit += deposit * capital;
-            month++;
-            System.out.println("Месяц " + month + ", сумма накоплений равна " + deposit + " рублей");
+            month++;{
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + deposit + " рублей");}
             //Задача 5;
             System.out.println("Задача 5");
             int currentAmount = 15_000;
@@ -55,20 +55,20 @@ public class Main {
             while (currentAmount < depositFinals)
                 currentAmount += currentAmount * capitals;
             monthCount++;
-            if (monthCount % 6 == 0)
-                System.out.println("Месяц " + monthCount + ", сумма накоплений равна " + currentAmount + " рублей");
+            if (monthCount % 6 == 0){
+                System.out.println("Месяц " + monthCount + ", сумма накоплений равна " + currentAmount + " рублей");}
 
             //Задача 6;
             System.out.println("Задача 6");
             for (int yearse = 1; yearse <= 9; yearse++)
                 for (int monthCounts = 1; monthCounts <= 6; monthCounts++)
-                    currentAmount += currentAmount * capitals;
-            System.out.println("Полгода " + yearse + ", сумма накоплений равна " + currentAmount + "рублей.");
+                    currentAmount += currentAmount * capitals;{
+            System.out.println("Полгода " + "yearse" + ", сумма накоплений равна " + currentAmount + "рублей.");}
             //Задача 7;
             System.out.println("Задача 7");
             int firstFriday = 3;
-            for (int day = firstFriday; day <= 31; day += 7)
-                System.out.println("Сегодня пятница, " + day + "-е число. Необходимо подготовить отчет.");
+            for (int day = firstFriday; day <= 31; day += 7){
+                System.out.println("Сегодня пятница, " + day + "-е число. Необходимо подготовить отчет.");}
 
             //Задача 8;
             System.out.println("Задача 8");
@@ -82,6 +82,4 @@ public class Main {
                     System.out.println(cometaYear);
                 }
             } while (cometaYear < ending);
-        }
-    }
-}
+        }}
